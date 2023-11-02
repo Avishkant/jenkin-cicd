@@ -5,7 +5,7 @@ pipeline {
             steps {
                //bat "rmdir  /s /q jenkin-cicd"
                 bat "git clone https://github.com/Avishkant/jenkin-cicd"
-                bat "mvn clean -f jenkin-cicd"
+                //bat "mvn clean -f jenkin-cicd"
             }
         }
         stage('install') {
